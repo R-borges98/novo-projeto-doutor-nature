@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+
+
+@font-face {
+    font-family: 'effra std', 'Effra Sts' , ;
+    src: url(../fonts/effra_std_bd-webfont.woff),
+    url(../fonts/effra_std_bd-webfont.woff2),
+    url(../fonts/Effra_Std_Bd.ttf),
+    url(../fonts/Effra_Std_He.ttf),
+    url(../fonts/effra_std_lt-webfont.woff),
+    url(../fonts/effra_std_lt-webfont.woff2),
+    url(../fonts/Effra_Std_Lt.ttf),
+    url(../fonts/effra_std_rg-webfont.woff),
+    url(../fonts/effra_std_rg-webfont.woff2),
+    url(../fonts/Effra_Std_Rg.ttf);
+}
+
+ h1{
+    font-family: 'effra std';
+} 
+
+html{
+    font-family: 'Roboto', 'Roboto Slab';
+    font-weight: 500;
+} 
+
+body{
+    display: grid;
+    /* grid-template-areas: "background-desktop"
+    "cabecalho" "foto-doutor-rafael" "textos" "textos" "textos"; */
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.logo img{
+    width: 190px; 
+    top: 10px;
+    padding: 20px;
+}
+
+.background-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagens/background-desktop.png);
+    max-width: 100%;
+    height: 89vh;
+    background-size: cover;  
+} 
+/*  
+.background-desktop:after{
+    content: url(../imagens/seta_preta.png);
+    position: absolute;
+    height: 30px;
+    bottom: 50px;
+    font-size: 1rem;
+    animation: setaanimada 0.6s infinite alternate ease-in-out;
+    left: 670px;
+}
+
+@-webkit-keyframes setaanimada{
+    0% { -webkit-transform: translatey(0);}
+    100% { -webkit-transform: translatey(0.4em); opacity: 0.9;}
+}  */
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color: #484B57;
+    margin-top: 30px;
+}
+
+.subtitulo{
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     color: #2fa22f;
+     margin-top: 30px;
+}
+.container-info-banner.video-yt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.video-yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+ /* SEÇÃO DOUTOR RAFAEL */
+.container-doutor{
+    display: flex;
+    align-items: center; 
+}
+
+.titulo-secao-doutor{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #3B4157;
+}
+
+.frase-cor-doutor{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 25px;
+    color: #FF594E;
+}
+
+.texto-doutor{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: end;
+    margin: 7%;
+}
+
+.frase-doutor-cor{
+    color: #3B4157;
+}
+
+.foto-doutor img{
+    display: flex;
+    width: 350px;
+    height: 500px;
+} 
+
+/*  SEÇÃO DE OFERTA UNICA / CARD 1 */
+
+.container-background{
+    display: flex;
+    flex-direction: column;
+    background-color: #3B4157;
+}
+
+.card-1{
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px;
+    
+}
+
+.container-card-1{
+    display: flex;
+    justify-content: center;
+} 
+
+.escolha-seu-pacote{
+    background-color: #484B57;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 15px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+}
+
+
+.caixas{
+    display: flex;
+    gap: 5px;
+}
+
+.caixas{
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.caixas{
+    display: inline-block;
+
+}
+.caixas-2{
+    display: inline-block;
+   
+}
+.caixa-cor1{
+    background-color: #f1ecff;
+    color: #a8abb4;
+}
+
+.caixa-cor{
+    background-color: #2fa22f;
+    color: #F5F5F5;
+}
+
+.precos-cor{
+    color: #3B4157; 
+}
+
+.preco-cor{
+   color: #3B4157;
+} 
+
+.preco-cor{
+    color:#3B4157 ;
+}
+
+.valor-cor{
+    color: #2fa22f;
+    
+}
+.listas-de-precos li{
+    display: flex;
+    margin-top: 5px 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.quantidade-de-caixas{
+    /* display: flex; */
+    align-items: center;
+    font-size: 19px;
+    flex-wrap: wrap;
+    margin-left: 9px;
+}
+
+.numero-caixa{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.btn-danger{
+    width: 95%;
+    right: 125px; 
+    border-radius: 120px;
+}
+
+.texto-oferta-unica{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #f1ecff;
+}
+
+.texto-sobre-oferta{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #f1ecff;
+}
+
+/* #mark{
+    background: url(../imagens/mark.svg) no-repeat;
+    
+} */
+
+/*  SEÇÃO DE OFERTA UNICA / CARD 2 */
+
+.container-card-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+} 
+
+.frase-assine{
+    display: flex;
+    justify-content: center;
+    background-color: #484B57;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 8px , 5px , 5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+}
+
+.cor-sim-assinante{
+    color: #3B4157;
+}
+
+/* .opcional{
+    display: flex;
+    justify-content: center;
+    color: #F5F5F5;
+    text-transform: uppercase;
+} */
+
+.lista-precos{
+    display: flex;
+    margin-bottom: 10%;
+    flex-direction: column;
+    gap:10px;
+}
+   
+.lista li {
+    display: flex;
+    text-decoration: none;
+    color: #484B57;
+}
+
+.botao-assinante{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   text-decoration: none;
+   
+}
+
+.botao-assinante a{
+    text-decoration: none;
+    color: #484B57;
+}
+
+
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #e7e8ed;
+    /* margin: 5px; */
+}
+
+.icone-img{
+    width: 17px;
+    height: 20px;
+}
+
+/* .badge-cima-card-ass{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100px;
+    /* height: 100px; 
+}*/ 
+
+
+   /* SEÇAO CARD GARANTIA */
+
+.container-garantia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-garantia{
+    max-width: 70%;  
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+}
+
+.frase-color-garantia{
+    color: #3B4157;
+}
+.imagem-garantia{
+    display: flex;
+    /* justify-content: flex-start; */
+    width: 200px;
+}
+
+.paragrafo-garantia{
+    display: flex;
+    text-align: center;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.titulo-garantia{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 15px;
+    color: #3B4157;
+    
+}
+
+.subtitulo-garantia{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #FF594E;
+}
+
+.container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+} 
+
+.p-3{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-resultados-active{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #3B4157;
+}
+
+.cor-paragrafo-antes-depois{
+    color: #8e94a5;
+
+}
+
+.frase-experimente-hidratar{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #FF594E;
+}
+
+.background-tire-duvidas{
+    background-color:  #3B4157;
+}
+
+
+/* SEÇÃO TIRE SUAS DÚVIDAS */
+
+.container-tire-suas-duvidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 850px; 
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.titulo-tire-suas-duvidas{
+    display: flex;
+    justify-content: center;
+    color: #F5F5F5;
+    font-size: 30px;
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 15px;
+}
+
+.pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 2px solid  #F5F5F5;
+    color: #F5F5F5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.pergunta h3{
+    font-size: 20px;
+}
+
+.pergunta .fa-chevron-down {
+    color:#FF594E;
+}
+
+.resposta{
+    color: #2fa22f;
+}
+     
+.resposta{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.ativar{
+    max-height: 300px;
+}
+
+.fechar .fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+
+
+/* SEÇÃO SUPLEMENTOS */
+
+.titulo-suplementos{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 15px;
+    color: #3B4157;
+}
+
+
+.hidratacao-verdade{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #FF594E;
+}
+
+.container-suplemento{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imagem-suplemento img{
+    width: 400px;
+}
+
+.listas-ingrediente{
+    display: block;
+    gap: 10%;
+    margin-top: 20px;
+}
+
+.ingredientes-span{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+} 
+.background-rodape{
+    background-color: #e6e8f4;
+    padding: 30px;
+}
+
+.paragrafo-rodape{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    color: #8e94a5;
+}
+
+.logo-rodape img{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.frase-rodape{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    color: #8e94a5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENU HAMBURGUER
+
+.cabecalho .menu{
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.cabecalho nav label{
+    display: flex;
+    flex-direction: column;
+}
+
+.secoes-menu {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+    text-decoration: none;
+}  
+
+.cabecalho  .hamburguer{
+    background-color: #000;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 13px;
+    left: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .hamburguer:before,
+.cabecalgo .hamburguer:after{
+    background-color: #000;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho .hamburguer:before{
+    top: -10px;
+}
+.cabecalho .hamburguer:after{
+    bottom: -10px;
+}
+.cabecalho input{
+    display: none ;
+}
+
+.cabecalho input:checked ~ label .hamburguer{
+    transform: rotate(45deg);
+}
+
+.cabecalho input:checked ~ label .hamburguer:before{
+  transform: rotate(90deg); 
+  top: 0; 
+}
+
+.cabecalho input:checked ~ label .hamburguer:after{
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.secoes-menu a {
+    color:  #FF594E;
+}
+
+.secoes-menu li{
+    text-decoration: none;
+}
+ */
+
+
+/* #FF594E, 
+#484B57,
+#3B4157, 
+white,
+#F5F5F5 */
